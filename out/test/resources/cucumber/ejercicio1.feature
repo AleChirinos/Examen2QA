@@ -7,7 +7,7 @@ Feature: Project
     When envio POST request a la /api/user.json con el body
     """
     {
-      "Email":"alechirinos3@api.com",
+      "Email":"alechirinos4@api.com",
       "Password":"12345",
       "FullName":"Alejandra Chirinos"
     }
@@ -17,7 +17,7 @@ Feature: Project
     """
     {
         "Id": "IGNORE",
-        "Email": "alechirinos3@api.com",
+        "Email": "alechirinos4@api.com",
         "FullName": "Alejandra Chirinos",
         "TimeZone":"IGNORE",
         "IsProUser": false,
@@ -37,7 +37,7 @@ Feature: Project
     When envio PUT request a la /api/user/0.json con el body
     """
     {
-      "Email":"newAleChirinos3@api.com"
+      "Email":"newAleChirinos4@api.com"
     }
     """
     Then el codigo de respuesta deberia ser 200
