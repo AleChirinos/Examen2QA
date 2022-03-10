@@ -7,7 +7,7 @@ public class Configuration {
 
     //Nuevo Usuario
     public static String fullName="Alejandra Chirinos";
-    public static String newUser="alechirinos4@api.com";
-    public static String newEmail="newAleChirinos4@api.com";
+    public static String newUser="alechirinos6@api.com";
+    public static String newEmail="newAleChirinos6@api.com";
     public static String newPwd="12345";
 }
